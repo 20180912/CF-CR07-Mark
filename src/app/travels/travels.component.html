@@ -1,9 +1,24 @@
-<p>travels works!</p>
+<h2>Our Destinations</h2>
 
-<div *ngFor="let destination of travels">
+<div class="row">
 
-    <h3>
-        {{ destination.name }}
-    </h3>
-   
+    <div *ngFor="let destination of travels" class="col-lg-3 col-md-6 col-12 p-3">
+
+        <div class="card" style="height: 100%">
+            <img src="{{destination.image}}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title text-center">{{ destination.name }}</h5>
+                <p class="card-text" innerHTML="{{ destination.description }}"></p>
+                <ul>
+                    <li>{{ destination.startDate }}</li>
+                    <li>{{ destination.duration }}</li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <p class="text-success text-center">{{ destination.price }}€</p>
+            </div>
+        </div>
+
+    </div>
+
 </div>

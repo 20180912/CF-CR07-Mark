@@ -1,0 +1,11 @@
+<div id="content">
+    <h2>Your Reservations</h2>
+
+    <ul *ngFor="let destination of destinations">
+     <li>{{ destination.name }}, {{ destination.price }}€</li>
+    </ul>
+
+    <p class="h4" id="total"></p>
+    
+    <button class="btn btn-success" type="submit" (click)="book()">Book</button>
+</div>

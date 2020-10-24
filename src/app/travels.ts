@@ -2,7 +2,7 @@ export const travels = [
     {
         name: "Acatenango",
         image: "./assets/acatenango.jpg",
-        description: "The Acatenango is a stratovolcano in Guatemala, close to the city of Antigua. It is joined with Volcán de Fuego and collectively the volcano complex is known as La Horqueta. Fuego is famous for being almost constantly active at a low level. Small gas and ash eruptions occur every 15 to 20 minutes and can be observed well from the Acatenango",
+        description: "The Acatenango is a stratovolcano in Guatemala, close to the city of Antigua. It is joined with Volcán de Fuego and collectively the volcano complex is known as La Horqueta. Fuego is famous for being almost constantly active at a low level. Small gas and ash eruptions occur every 15 to 20 minutes and can be observed well from the Acatenango.",
         startDate: "09.03.2021",
         duration: "2 days",
         price: 50
@@ -16,7 +16,7 @@ export const travels = [
     }, {
         name: "Huacachina",
         image: "./assets/huacachina.jpg",
-        description: "Huacachina is a village in southwestern Peru. It is built around the only desert oasis in South America and a popular attraction for tourists drawn by the sports of sandboarding on the sand dunes that reach several hundred feet high. Other popular activities include dune buggy rides on buggies",
+        description: "Huacachina is a village in southwestern Peru. It is built around the only desert oasis in South America and a popular attraction for tourists drawn by the sports of sandboarding on the sand dunes that reach several hundred feet high. Other popular activities include dune buggy rides on buggies.",
         startDate: "10.04.2021",
         duration: "2 days",
         price: 120

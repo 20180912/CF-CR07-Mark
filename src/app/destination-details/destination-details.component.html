@@ -1,0 +1,10 @@
+<div class="clearfix" id="content">
+    <img src="{{destination.image}}" class="float-left pull-left mr-3">
+    <p class="display-4 text-center p-3">{{ destination.name }}</p>
+    <p class="lead" innerHTML="{{ destination.description }}"></p>
+    <p class="lead"><strong>Date:</strong> {{ destination.startDate }}</p>
+    <p class="lead"><strong>Duration:</strong> {{ destination.duration }}</p>
+    <p class="h2 text-success">{{ destination.price }}€</p>
+
+    <button (click)="addToCart(destination)" class="btn btn-success">Make reservation</button>
+</div>

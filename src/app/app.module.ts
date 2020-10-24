@@ -9,6 +9,8 @@ import { BlogComponent } from './blog/blog.component';
 import { TravelsComponent } from './travels/travels.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DestinationDetailsComponent } from './destination-details/destination-details.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     BlogComponent,
     TravelsComponent,
-    ContactComponent
+    ContactComponent,
+    DestinationDetailsComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
